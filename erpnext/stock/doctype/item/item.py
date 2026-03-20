@@ -284,7 +284,6 @@ class Item(Document):
 				"brand": self.brand,
 				"currency": erpnext.get_default_currency(),
 				"item_code": self.name,
-				"packing_unit": 0,
 				"price_list": price_list,
 				"uom": self.stock_uom,
 				"price_list_rate": self.standard_rate,
